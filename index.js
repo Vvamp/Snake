@@ -1,13 +1,14 @@
 // Settings
-const itemSize = 25;
-const colorSnake = false;
-const randomSpawn = false;
-const headColor = "#FF0000";
-const foodColor = "#00FF00";
-const snakeColor = "#FFFFFF";
-const passThrough = false;
-let fps = 4;
-const difficulty = {
+const itemSize = 25;            // The size of each element
+const colorSnake = false;       // Give the snake rainbow colours!
+const randomSpawn = false;      // Spawn anywhere on the map
+const headColor = "#FF0000";    // The color of the snake's head
+const foodColor = "#00FF00";    // The color of the food
+const snakeColor = "#FFFFFF";   // The color of the snake's body
+const passThrough = false;      // Let the snake pass through itself
+let fps = 4;                    // The speed of the game
+
+const difficulty = {            // Difficulty Sliders(Speed of the game)
     "easy": 4,
     "medium": 6,
     "hard": 10
