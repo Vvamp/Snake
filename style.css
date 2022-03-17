@@ -1,0 +1,41 @@
+body {
+  background-color: hsl(240, 3%, 7%);
+  margin: 0;
+  padding: 1em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-canvas {
+  background-color: hsl(240, 6%, 10%);
+}
+
+.game-name {
+  font-size: 6rem;
+  margin-bottom: 5rem;
+}
+
+.snake-part {
+  display: block;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+.game-difficulty-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.game-difficulty-label {
+  text-transform: capitalize;
+}
