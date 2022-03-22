@@ -11,7 +11,7 @@ A simple implementation of Snake in HTML5 and JS
 ## Table of Contents
 - [Getting Started](#Getting-Started)
     - [Installation](#Installation) 
-    - [Live Version]("#Live Version")
+    - [Live Version](#live-version)
 - [Usage](#Usage)
     - [Controls](#Controls)
     - [Settings](#Settings)
